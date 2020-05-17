@@ -9,7 +9,7 @@ services:
     hostname: itec315_db
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: OeW5avDXCOLNjULX 
+      MYSQL_ROOT_PASSWORD: PASSWORD 
     volumes:
       - ./volumes/mariadb/data:/var/lib/mysql
       - ./volumes/mariadb/logs:/var/log/mysql

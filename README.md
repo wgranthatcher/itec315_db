@@ -10,7 +10,7 @@ ITEC 315 - Data and Information Management
 ### Requirements
 
 Docker
-Docekr-compose
+Docker-compose
 
 ### To Run
 

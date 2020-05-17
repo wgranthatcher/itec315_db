@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+
+  populate_db:
+    #build: ./build
+    image: populate:latest
+    container_name: populate_db
+    environment:
+      MYSQL_ROOT_PASSWORD: OeW5avDXCOLNjULX
+    #volumes:
+      #- ./build:/build
+    networks:
+      - itec
+
+networks:
+  itec:
+    name: itec
+    driver: bridge

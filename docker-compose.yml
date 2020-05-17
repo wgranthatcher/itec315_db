@@ -1,0 +1,25 @@
+version: "3.7"
+
+services:
+
+  itec315_db:
+    #build: ./build
+    image: mariadb:latest #itec315_db
+    container_name: itec315_db
+    hostname: itec315_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: OeW5avDXCOLNjULX 
+    volumes:
+      - ./volumes/mariadb/data:/var/lib/mysql
+      - ./volumes/mariadb/logs:/var/log/mysql
+    ports:
+      - 3306:3306
+    networks:
+      - itec
+
+
+networks:
+  itec:
+    name: itec
+    driver: bridge

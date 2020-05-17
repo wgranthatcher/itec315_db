@@ -1,5 +1,17 @@
 # ITEC 315 - MariaDB Docker Repo
 
+Author - W. Grant Hatcher
+Date - 5/17/2020
+
 ## Stand Up and Populate Users in MySQL Database with Chinook Database 
 
-change PASSWORD in docker-compose.yml and populate-compose.yml
+ITEC 315 - Data and Information Management
+
+### Requirements
+
+Docker
+Docekr-compose
+
+### To Run
+
+change *PASSWORD* in docker-compose.yml and populate-compose.yml

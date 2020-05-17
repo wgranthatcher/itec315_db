@@ -7,7 +7,7 @@ services:
     image: populate:latest
     container_name: populate_db
     environment:
-      MYSQL_ROOT_PASSWORD: OeW5avDXCOLNjULX
+      MYSQL_ROOT_PASSWORD: PASSWORD
     #volumes:
       #- ./build:/build
     networks:

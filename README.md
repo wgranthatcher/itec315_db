@@ -6,13 +6,15 @@ Remote access server for students to carry out MySQL lab assignments
 
 ## Stand Up and Pre-Populate Student Users and example Chinook Database tables
 
+<br/>
 
-
-### Requirements
+### Requirements:
 
 Docker
 
 Docker-compose
+
+<br/>
 
 ### To Run
 

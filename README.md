@@ -1,11 +1,12 @@
-# ITEC 315 - MariaDB Docker Repo
+# Dockerized MariaDB Server for ITEC 315 - Data and Information Management
 
-Author - W. Grant Hatcher
-Date - 5/17/2020
+Remote access server for students to carry out MySQL lab assignments
 
-## Stand Up and Populate Users in MySQL Database with Chinook Database 
+<br/>
 
-ITEC 315 - Data and Information Management
+## Stand Up and Pre-Populate Student Users and example Chinook Database tables
+
+
 
 ### Requirements
 

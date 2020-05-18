@@ -14,6 +14,13 @@ docker, docker-compose,
 
 <br/>
 
+### Uses:
+
+
+alpine:latest
+mysql-server
+
+
 ### To Run
 
 Substitute real password for *PASSWORD* in docker-compose.yml and populate-compose.yml

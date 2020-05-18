@@ -19,3 +19,7 @@ Docker-compose
 ### To Run
 
 change *PASSWORD* in docker-compose.yml and populate-compose.yml
+
+```
+docker-compose up -d
+```

@@ -2,11 +2,12 @@
 
 Remote access server for students to carry out MySQL lab assignments
 
+Stand Up and Pre-Populate Student Users and example Chinook Database tables
+
 ## Implemented: 
 
 ***ITEC 315*** - Data and Information Management
 
-Stand Up and Pre-Populate Student Users and example Chinook Database tables
 
 <br/>
 

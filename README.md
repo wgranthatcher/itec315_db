@@ -10,9 +10,7 @@ Remote access server for students to carry out MySQL lab assignments
 
 ### Requirements:
 
-Docker
-
-Docker-compose
+docker, docker-compose, 
 
 <br/>
 
@@ -22,7 +20,9 @@ Substitute real password for *PASSWORD* in docker-compose.yml and populate-compo
 
 Add users.txt with the format:
 ```
-userdb user pass
+user1db user1 pass1
+user2db user2 pass2
+...
 ```
 
 then

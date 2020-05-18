@@ -28,10 +28,12 @@ alpine:latest, mysql-client, bash
 Substitute real password for *PASSWORD* in docker-compose.yml and populate-compose.yml
 
 Add users.txt with the format:
+
 ```
 user1db user1 pass1
 user2db user2 pass2
 ...
+```
 
 then
 

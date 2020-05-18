@@ -13,7 +13,7 @@ Stand Up and Pre-Populate Student Users and example Chinook Database tables
 
 ### Requirements:
 
-docker, docker-compose, 
+docker, docker-compose 
 
 ### Uses:
 
@@ -32,7 +32,6 @@ Add users.txt with the format:
 user1db user1 pass1
 user2db user2 pass2
 ...
-```
 
 then
 

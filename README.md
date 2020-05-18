@@ -23,7 +23,7 @@ alpine:latest, mysql-client, bash
 
 <br/>
 
-### To Run
+### Prepare:
 
 Substitute real password for *PASSWORD* in docker-compose.yml and populate-compose.yml
 
@@ -35,7 +35,8 @@ user2db user2 pass2
 ...
 ```
 
-then
+
+### To Run:
 
 `docker-compose up -d`
 

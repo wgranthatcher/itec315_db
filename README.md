@@ -1,6 +1,10 @@
-# Dockerized MariaDB Server for ITEC 315 - Data and Information Management
+# Dockerized MariaDB Server
 
 Remote access server for students to carry out MySQL lab assignments
+
+## Implemented: 
+
+ITEC 315 - Data and Information Management
 
 <br/>
 
@@ -12,14 +16,13 @@ Remote access server for students to carry out MySQL lab assignments
 
 docker, docker-compose, 
 
-<br/>
-
 ### Uses:
 
 mariadb:latest
 
-alpine:latest, mysql-client
+alpine:latest, mysql-client, bash
 
+<br/>
 
 ### To Run
 

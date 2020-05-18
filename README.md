@@ -18,8 +18,17 @@ Docker-compose
 
 ### To Run
 
-change *PASSWORD* in docker-compose.yml and populate-compose.yml
+Substitute real password for *PASSWORD* in docker-compose.yml and populate-compose.yml
 
+Add users.txt with the format:
 ```
-docker-compose up -d
+userdb user pass
 ```
+
+then
+
+`docker-compose up -d`
+
+then
+
+`./build.sh`

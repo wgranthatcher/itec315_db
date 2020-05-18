@@ -16,9 +16,9 @@ docker, docker-compose,
 
 ### Uses:
 
+mariadb:latest
 
-alpine:latest
-mysql-server
+alpine:latest, mysql-client
 
 
 ### To Run
